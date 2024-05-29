@@ -1,0 +1,18 @@
+
+[reframe]
+name = "Basic Rust Rest API scaffold"
+author = "Robin Syihab"
+min_version = "0.1.8"
+
+[project]
+name = "Basic Rust Rest API"
+version = "0.0.1"
+
+[[param]]
+author_name = { ask = "Author name?" }
+
+[[param]]
+author_email = { ask = "Author email?" }
+
+[[param]]
+company_name = { ask = "Company name?", default = "Neuversity" }
