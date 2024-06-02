@@ -12,6 +12,9 @@ version = "0.0.1"
 author_name = { ask = "Author name?" }
 
 [[param]]
+desc = { ask = "Description" }
+
+[[param]]
 author_email = { ask = "Author email?" }
 
 [[param]]
